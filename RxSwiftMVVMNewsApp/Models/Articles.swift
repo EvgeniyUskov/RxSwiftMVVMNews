@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct ArticleResponse: Decodable {
+    var articles: [Article]
+}
+
+struct Article: Decodable {
+    var title: String
+    var description: String?
+    
+}

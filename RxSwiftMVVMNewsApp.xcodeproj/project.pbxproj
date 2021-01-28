@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		414726B66414081BBC011E4A /* Pods_RxSwiftMVVMNewsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B6D869BA80B45286FA1AB4 /* Pods_RxSwiftMVVMNewsApp.framework */; };
+		443E3CA4258CBB0700483305 /* URLRequest + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443E3CA3258CBB0700483305 /* URLRequest + Extensions.swift */; };
+		443E3CA7258CF95000483305 /* URL + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443E3CA6258CF95000483305 /* URL + Extension.swift */; };
+		443E3CB7258CFC0300483305 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443E3CB6258CFC0300483305 /* ArticleViewModel.swift */; };
+		443E3CBE258D0AF600483305 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443E3CBD258D0AF600483305 /* NewsCell.swift */; };
 		448FE159258CB18500EF8BB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448FE158258CB18500EF8BB5 /* AppDelegate.swift */; };
 		448FE15B258CB18500EF8BB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448FE15A258CB18500EF8BB5 /* SceneDelegate.swift */; };
-		448FE15D258CB18500EF8BB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448FE15C258CB18500EF8BB5 /* ViewController.swift */; };
 		448FE160258CB18500EF8BB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448FE15E258CB18500EF8BB5 /* Main.storyboard */; };
 		448FE162258CB18800EF8BB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448FE161258CB18800EF8BB5 /* Assets.xcassets */; };
 		448FE165258CB18800EF8BB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448FE163258CB18800EF8BB5 /* LaunchScreen.storyboard */; };
+		448FE171258CB28700EF8BB5 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448FE170258CB28700EF8BB5 /* NewsTableViewController.swift */; };
+		448FE174258CB4A200EF8BB5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448FE173258CB4A200EF8BB5 /* Constants.swift */; };
+		448FE178258CB51F00EF8BB5 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448FE177258CB51F00EF8BB5 /* UIHelper.swift */; };
+		448FE17B258CB58A00EF8BB5 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448FE17A258CB58A00EF8BB5 /* UIColor + Extension.swift */; };
+		448FE180258CB82000EF8BB5 /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448FE17F258CB82000EF8BB5 /* Articles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		443E3CA3258CBB0700483305 /* URLRequest + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest + Extensions.swift"; sourceTree = "<group>"; };
+		443E3CA6258CF95000483305 /* URL + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL + Extension.swift"; sourceTree = "<group>"; };
+		443E3CB6258CFC0300483305 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		443E3CBD258D0AF600483305 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		448FE155258CB18500EF8BB5 /* RxSwiftMVVMNewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftMVVMNewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		448FE158258CB18500EF8BB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		448FE15A258CB18500EF8BB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		448FE15C258CB18500EF8BB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		448FE15F258CB18500EF8BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		448FE161258CB18800EF8BB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		448FE164258CB18800EF8BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		448FE166258CB18800EF8BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		448FE170258CB28700EF8BB5 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		448FE173258CB4A200EF8BB5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		448FE177258CB51F00EF8BB5 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		448FE17A258CB58A00EF8BB5 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		448FE17F258CB82000EF8BB5 /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		54FA8981DA866BD69CA69374 /* Pods-RxSwiftMVVMNewsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftMVVMNewsApp.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftMVVMNewsApp/Pods-RxSwiftMVVMNewsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		62F55C3BE5961176AA562633 /* Pods-RxSwiftMVVMNewsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftMVVMNewsApp.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftMVVMNewsApp/Pods-RxSwiftMVVMNewsApp.release.xcconfig"; sourceTree = "<group>"; };
+		E6B6D869BA80B45286FA1AB4 /* Pods_RxSwiftMVVMNewsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftMVVMNewsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				414726B66414081BBC011E4A /* Pods_RxSwiftMVVMNewsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E39E211F1EA6D77749DB81F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54FA8981DA866BD69CA69374 /* Pods-RxSwiftMVVMNewsApp.debug.xcconfig */,
+				62F55C3BE5961176AA562633 /* Pods-RxSwiftMVVMNewsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		443E3CA2258CBAF100483305 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				448FE17A258CB58A00EF8BB5 /* UIColor + Extension.swift */,
+				443E3CA3258CBB0700483305 /* URLRequest + Extensions.swift */,
+				443E3CA6258CF95000483305 /* URL + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		443E3CB5258CFBEE00483305 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				443E3CB6258CFC0300483305 /* ArticleViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		443E3CB9258CFC1F00483305 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				448FE177258CB51F00EF8BB5 /* UIHelper.swift */,
+				448FE15E258CB18500EF8BB5 /* Main.storyboard */,
+				448FE161258CB18800EF8BB5 /* Assets.xcassets */,
+				448FE163258CB18800EF8BB5 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		443E3CBA258CFC3800483305 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				448FE158258CB18500EF8BB5 /* AppDelegate.swift */,
+				448FE15A258CB18500EF8BB5 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		443E3CBC258D0ACB00483305 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				443E3CBD258D0AF600483305 /* NewsCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		448FE14C258CB18500EF8BB5 = {
 			isa = PBXGroup;
 			children = (
 				448FE157258CB18500EF8BB5 /* RxSwiftMVVMNewsApp */,
 				448FE156258CB18500EF8BB5 /* Products */,
+				1E39E211F1EA6D77749DB81F /* Pods */,
+				E5D979F95149470224762BA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +134,41 @@
 		448FE157258CB18500EF8BB5 /* RxSwiftMVVMNewsApp */ = {
 			isa = PBXGroup;
 			children = (
-				448FE158258CB18500EF8BB5 /* AppDelegate.swift */,
-				448FE15A258CB18500EF8BB5 /* SceneDelegate.swift */,
-				448FE15C258CB18500EF8BB5 /* ViewController.swift */,
-				448FE15E258CB18500EF8BB5 /* Main.storyboard */,
-				448FE161258CB18800EF8BB5 /* Assets.xcassets */,
-				448FE163258CB18800EF8BB5 /* LaunchScreen.storyboard */,
+				443E3CBA258CFC3800483305 /* App */,
+				448FE173258CB4A200EF8BB5 /* Constants.swift */,
+				443E3CB5258CFBEE00483305 /* ViewModels */,
+				443E3CA2258CBAF100483305 /* Extensions */,
+				448FE17E258CB81600EF8BB5 /* Models */,
+				443E3CBC258D0ACB00483305 /* Cells */,
+				448FE16E258CB1C600EF8BB5 /* Controllers */,
+				443E3CB9258CFC1F00483305 /* Views */,
 				448FE166258CB18800EF8BB5 /* Info.plist */,
 			);
 			path = RxSwiftMVVMNewsApp;
+			sourceTree = "<group>";
+		};
+		448FE16E258CB1C600EF8BB5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				448FE170258CB28700EF8BB5 /* NewsTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		448FE17E258CB81600EF8BB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				448FE17F258CB82000EF8BB5 /* Articles.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E5D979F95149470224762BA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6B6D869BA80B45286FA1AB4 /* Pods_RxSwiftMVVMNewsApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 448FE169258CB18800EF8BB5 /* Build configuration list for PBXNativeTarget "RxSwiftMVVMNewsApp" */;
 			buildPhases = (
+				E090BAD622693D559AAF7A67 /* [CP] Check Pods Manifest.lock */,
 				448FE151258CB18500EF8BB5 /* Sources */,
 				448FE152258CB18500EF8BB5 /* Frameworks */,
 				448FE153258CB18500EF8BB5 /* Resources */,
+				E1B21BEBB9D5D6F7BDF63C35 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +238,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E090BAD622693D559AAF7A67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftMVVMNewsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1B21BEBB9D5D6F7BDF63C35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftMVVMNewsApp/Pods-RxSwiftMVVMNewsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftMVVMNewsApp/Pods-RxSwiftMVVMNewsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwiftMVVMNewsApp/Pods-RxSwiftMVVMNewsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		448FE151258CB18500EF8BB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				448FE15D258CB18500EF8BB5 /* ViewController.swift in Sources */,
+				448FE180258CB82000EF8BB5 /* Articles.swift in Sources */,
 				448FE159258CB18500EF8BB5 /* AppDelegate.swift in Sources */,
+				443E3CA7258CF95000483305 /* URL + Extension.swift in Sources */,
+				443E3CB7258CFC0300483305 /* ArticleViewModel.swift in Sources */,
 				448FE15B258CB18500EF8BB5 /* SceneDelegate.swift in Sources */,
+				448FE171258CB28700EF8BB5 /* NewsTableViewController.swift in Sources */,
+				448FE17B258CB58A00EF8BB5 /* UIColor + Extension.swift in Sources */,
+				448FE178258CB51F00EF8BB5 /* UIHelper.swift in Sources */,
+				448FE174258CB4A200EF8BB5 /* Constants.swift in Sources */,
+				443E3CA4258CBB0700483305 /* URLRequest + Extensions.swift in Sources */,
+				443E3CBE258D0AF600483305 /* NewsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +439,7 @@
 		};
 		448FE16A258CB18800EF8BB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54FA8981DA866BD69CA69374 /* Pods-RxSwiftMVVMNewsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +459,7 @@
 		};
 		448FE16B258CB18800EF8BB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F55C3BE5961176AA562633 /* Pods-RxSwiftMVVMNewsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

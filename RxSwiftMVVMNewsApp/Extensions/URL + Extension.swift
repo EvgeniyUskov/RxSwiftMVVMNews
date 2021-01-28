@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+extension URL {
+    static func urlForNewsAPI() -> URL? {
+            return URL(string: Constants.url + Constants.apiKey)
+    }
+}
